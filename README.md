@@ -1,5 +1,5 @@
 # ComplexNumber
-Implementation of a complex number class
+Implementation of a complex number class.
 
 ## For the future
-Implement a graphics tool for vizualization
+Implement a graphics tool for visualization.

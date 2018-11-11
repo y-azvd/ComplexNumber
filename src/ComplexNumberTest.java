@@ -1,6 +1,3 @@
-import static java.lang.Math.atan;
-import static java.lang.Math.toDegrees;
-
 public class ComplexNumberTest {
     public static void main(String args[]) {
         ComplexNumber z1 = new ComplexNumber(-0, 0);

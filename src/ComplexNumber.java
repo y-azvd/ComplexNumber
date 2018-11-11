@@ -1,6 +1,4 @@
-import java.awt.event.ComponentListener;
 import java.util.ArrayList;
-
 import static java.lang.Math.*;
 
 /**
