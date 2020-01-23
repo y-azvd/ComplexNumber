@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import static java.lang.Math.*;
 
 /**
+ * FOR MEMORY LEAKS
+ * - https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks001.html
+ * - https://dzone.com/articles/what-to-do-about-java-memory-leaks-tools-fixes-and
  * Complex Number class implementation. I've remade this several times.
  * Maybe I love complex numbers. If you don't understand the operations
  * made below, read the README.md file. Or go directly to the
@@ -28,7 +31,7 @@ public class ComplexNumber {
     }
 
     /**
-     * Constructs a complex number.
+     * Constructs a complex number given the real and imaginary part.
      * @param x real part.
      * @param y imaginary part.
      * */
