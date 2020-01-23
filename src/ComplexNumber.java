@@ -117,27 +117,27 @@ public class ComplexNumber {
      * */
     @Override
     public String toString() {
-        String result = "";
+        String stringForm = "";
         Util u = new Util();
 
         if (re != 0) {
-            result += "" + u.round(re, 2);
+            stringForm += "" + u.round(re, 2);
 
             if (im > 0)
-                result += " + i" + u.round(im, 2);
+                stringForm += " + i" + u.round(im, 2);
             if (im < 0)
-                result += " - i" + u.round(im*-1, 2);
+                stringForm += " - i" + u.round(im*-1, 2);
         }
         else {
             if (im > 0)
-                result += "i" + u.round(im, 2);
+                stringForm += "i" + u.round(im, 2);
             if (im < 0)
-                result += "-i" + u.round(im*-1, 2);
+                stringForm += "-i" + u.round(im*-1, 2);
             if (im == 0)
-                result += "0 + i0";
+                stringForm += "0 + i0";
         }
 
-        return result;
+        return stringForm;
     }
 
     /**
