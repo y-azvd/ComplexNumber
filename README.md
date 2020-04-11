@@ -1,4 +1,4 @@
-# ComplexNumber
+# Complex Number
 Implementation of a complex number class.
 
 ## For the future
